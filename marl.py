@@ -1,5 +1,5 @@
 """
-Lumache - Python library for cooks and food lovers.
+Marl - Python library for multi-agent reinforcement learning.
 """
 
 __version__ = "0.1.0"
