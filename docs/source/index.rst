@@ -9,8 +9,8 @@
 
 MARL has its documentation hosted on Read the Docs.
 
-Check out the :doc:`强化学习概论` section for further information, including
-how to :ref:`如何使用` the project.
+.. Check out the :doc:`usage` section for further information, including
+.. how to :ref:`installation` the project.
 
 .. note::
 
@@ -20,6 +20,10 @@ how to :ref:`如何使用` the project.
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: 强化学习概论
 
-   强化学习概论
-   多智能体强化学习提纲
+.. toctree::
+   :maxdepth: 2
+   :caption: 多智能体强化学习提纲  
+   
