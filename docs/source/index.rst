@@ -1,3 +1,10 @@
+.. MARL文档，created by
+   sphinx-quickstart on Sun night Oct 16 2022.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+.. image:: _static/images/honor-of-kings.png
+
 欢迎来到实战云多智能体强化学习项目大纲
 ===================================
 
