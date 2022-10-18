@@ -42,14 +42,14 @@ Youtube频道 https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists
 实例讲解
 
 
-要明确这不是一门零基础课
-
-是进阶课
-
-但是也不用怕
-
-
 课程设计 
+^^^^^^^
+MARL Concept
+Classification
+Current solutions (based on different criteria)
+Algorithms introduction and code review
+Connect with AI Arena platform
+
 
 课后习题（后面设计）
 
@@ -60,6 +60,13 @@ Youtube频道 https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists
 
 课件模板
 
+.. note::
+    要明确这不是一门零基础课
 
-以年为单位
+    是进阶课
+
+    但是也不用怕
+    
+    时间：以年为单位
+
 
