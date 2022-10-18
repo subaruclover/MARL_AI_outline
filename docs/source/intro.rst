@@ -84,7 +84,7 @@ Connect with AI Arena platform
 
     是进阶课
 
-    但是也不用怕
+    但是也不担心学不明白
     
     时间：以年为单位
 

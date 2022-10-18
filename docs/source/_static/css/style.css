@@ -13,7 +13,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p.capti
 }
 
 .wy-nav-content {
-    max-width: 1400px !important;
+    max-width: 1200px !important;
 }
 
 .wy-nav-content-wrap, .wy-menu li.current > a  {
@@ -37,7 +37,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p.capti
 
 /* Fixes for mobile */
 .wy-nav-top {
-    background-color: #fff;
+    background-color: var(--color--coolgray4) !important;
     background-image: url('../images/logo.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -54,10 +54,6 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p.capti
     .wy-side-nav-search>a img.logo {
         height: 60px;
     }
-    /* .wy-side-nav-search .wy-dropdown > a img.logo, 
-    .wy-side-nav-search > a img.logo {
-        width: 20px;
-    } */
 }
 
 /* This is needed to ensure that logo above search scales properly */
