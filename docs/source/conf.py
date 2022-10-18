@@ -54,9 +54,6 @@ html_logo = '/images/logo.png'
 #     'logo_only': True
 # }
 
-# def setup(app):
-#     app.add_stylesheet('css/style.css')
-
 def setup(app):
     app.add_js_file(
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js")
