@@ -52,7 +52,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p.capti
 
 @media screen and (max-width: 768px) {
     .wy-side-nav-search>a img.logo {
-        height: 30px;
+        height: 60px;
     }
     /* .wy-side-nav-search .wy-dropdown > a img.logo, 
     .wy-side-nav-search > a img.logo {
