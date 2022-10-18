@@ -7,7 +7,7 @@
 
 参加者: 任川, Nicole, Qiong
 
-MARL has its documentation hosted on Read the Docs.
+MARL的文档托管在 Read the Docs 上。
 
 .. Check out the :doc:`usage` section for further information, including
 .. how to :ref:`installation` the project.
@@ -20,10 +20,9 @@ MARL has its documentation hosted on Read the Docs.
 --------
 
 .. toctree::
-   :maxdepth: 1
-   :caption: usage
+   usage
+   :name: 强化学习概论
 
-.. toctree::
-   :maxdepth: 1
-   :caption: intro 
+   intro 
+   :name: 多智能体强化学习
    
