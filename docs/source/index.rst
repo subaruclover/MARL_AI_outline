@@ -7,10 +7,9 @@
 
 参加者: 任川, Nicole, Qiong
 
-MARL的文档托管在 Read the Docs 上。
+查看 :doc:`usage` 部分了解更多信息。
 
-查看 :doc:`usage` 部分了解更多信息
-.. 包括:ref:`如何使用`项目。
+MARL的文档托管在 Read the Docs 上。
 
 .. note::
 
