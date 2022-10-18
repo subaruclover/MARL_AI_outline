@@ -24,7 +24,7 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
-    'sphinxcontrib.bibtex',
+    # 'sphinxcontrib.bibtex',
 ]
 
 intersphinx_mapping = {
@@ -43,7 +43,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 # Add any paths that contain custom static files (such as style sheets) here
 html_static_path = ['marker']
 
-html_logo = 'maker/images/logo.png'
+html_logo = 'marker/images/logo.png'
 
 
 # -- Options for EPUB output
