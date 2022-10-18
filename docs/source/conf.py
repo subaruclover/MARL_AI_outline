@@ -54,8 +54,19 @@ html_logo = '_static/images/logo.png'
 #     'logo_only': True
 # }
 
+# def setup(app):
+#     app.add_stylesheet('css/style.css')
+
 def setup(app):
-    app.add_stylesheet('css/style.css')
+    app.add_js_file(
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js")
+    app.add_js_file("https://cdn.jsdelivr.net/npm/vega@5.20.2")
+    app.add_js_file("https://cdn.jsdelivr.net/npm/vega-lite@5.1.0")
+    app.add_js_file("https://cdn.jsdelivr.net/npm/vega-embed@6.17.0")
+
+    app.add_js_file("js/copybutton.js")
+    app.add_js_file("js/benchmark.js")
+    app.add_css_file("css/style.css")
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
