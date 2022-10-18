@@ -9,8 +9,7 @@
 
 MARL的文档托管在 Read the Docs 上。
 
-.. Check out the :doc:`usage` section for further information, including
-.. how to :ref:`installation` the project.
+查看 :doc:`usage` 部分了解更多信息，包括:ref:`如何使用`项目。
 
 .. note::
 
@@ -22,7 +21,6 @@ MARL的文档托管在 Read the Docs 上。
 .. toctree::
    usage
    :name: 强化学习概论
-
    intro 
    :name: 多智能体强化学习
    

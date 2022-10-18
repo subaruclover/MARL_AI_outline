@@ -7,11 +7,12 @@
 ------------
 
 课程大纲
-.. To use Marl, first install it using pip:
+Background
+Concept
+Equations
+Methods (分类)
+glossary术语表
 
-.. .. code-block:: console
-
-..    (.venv) $ pip install marl
 
 如何使用
 ----------------
@@ -36,6 +37,8 @@
 每一节课的知识点
 
 课件
+
 课本、参考资料
+
 代码
 
