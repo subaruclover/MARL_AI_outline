@@ -1,34 +1,41 @@
-Usage
+强化学习概论
 =====
 
-.. _installation:
+.. _单智能体强化学习:
 
-Installation
+单智能体强化学习
 ------------
 
-To use Marl, first install it using pip:
+课程大纲
+.. To use Marl, first install it using pip:
 
-.. code-block:: console
+.. .. code-block:: console
 
-   (.venv) $ pip install marl
+..    (.venv) $ pip install marl
 
-Creating recipes
+如何使用
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``marl.get_random_ingredients()`` function:
+.. To retrieve a list of random ingredients,
+.. you can use the ``marl.get_random_ingredients()`` function:
 
-.. autofunction:: marl.get_random_ingredients
+.. .. autofunction:: marl.get_random_ingredients
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`marl.get_random_ingredients`
-will raise an exception.
+.. The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
+.. or ``"veggies"``. Otherwise, :py:func:`marl.get_random_ingredients`
+.. will raise an exception.
 
-.. autoexception:: marl.InvalidKindError
+.. .. autoexception:: marl.InvalidKindError
 
-For example:
+.. For example:
 
->>> import marl
->>> marl.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+.. >>> import marl
+.. >>> marl.get_random_ingredients()
+.. ['shells', 'gorgonzola', 'parsley']
+
+每一节课的知识点
+
+课件
+课本、参考资料
+代码
 
