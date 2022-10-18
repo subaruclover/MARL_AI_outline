@@ -55,9 +55,11 @@ html_theme_options = {
     'display_version': False,
 }
 
+def setup(app):
+    app.add_stylesheet('css/style.css')
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-def setup(app):
-    app.add_stylesheet('css/style.css')
+
 

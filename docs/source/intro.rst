@@ -6,11 +6,13 @@
 现有的多智能体强化学习中文社区教材和讲义
 ------------
 
-RL China中文社区
-链接：
+RLChina 强化学习社区
+
+链接：http://rlchina.org/
 
 伯禹AI(由上海交通大学张伟楠教授团队出品)
-链接：
+
+链接：https://www.boyuai.com/elites/
 
 西湖大学(课本，视频)
 
