@@ -81,4 +81,6 @@ Connect with AI Arena platform
     
     时间：以年为单位
 
+    Ref: https://github.com/subaruclover/MARL_AI_outline/tree/main/_static/references
+
 
