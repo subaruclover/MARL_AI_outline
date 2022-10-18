@@ -3,7 +3,7 @@
 
 .. _intro:
 
-现有的多智能体强化学习中文社区教材和讲义
+现有的(多智能)体强化学习中文社区教材和讲义
 ------------
 
 RLChina 强化学习社区
@@ -19,7 +19,7 @@ https://www.bilibili.com/video/BV1fz4y1S72S?p=1&vd_source=38b5017372fe991e5b7e30
 
 强化学习课程：https://www.boyuai.com/elites/course/xVqhU42F5IDky94x
 
-西湖大学(课本，视频)赵世钰教授团队
+西湖大学(课本，视频)赵世钰教授团队，飞行器控制领域
 
 书籍链接 https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning
 
@@ -28,6 +28,10 @@ Bilibili https://space.bilibili.com/2044042934
 Youtube频道 https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists
 
 其他相关课程
+
+参考文献（MARL survey）list
+
+ RL 溯源，分支 -> control theory, neuroscience (old paper)
 
 
 课程设计
@@ -45,9 +49,17 @@ Youtube频道 https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists
 课程设计 
 ^^^^^^^
 MARL Concept
+
 Classification
+
 Current solutions (based on different criteria)
+    
+    --Cooperative
+   
+    --Model
+
 Algorithms introduction and code review
+
 Connect with AI Arena platform
 
 
