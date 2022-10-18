@@ -45,22 +45,29 @@ Youtube频道 https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists
 
 实例讲解
 
+.. _marl_outline:
 
-课程设计 
-^^^^^^^
+课程设计outline 
+^^^^^^^^^^^^^^
+
 MARL Concept
+^^^^^^^^^^^^
 
 Classification
+^^^^^^^^^^^^^^
 
 Current solutions (based on different criteria)
+^^^^^^^^^^^^^^
     
     --Cooperative
    
     --Model
 
 Algorithms introduction and code review
+^^^^^^^^^^^^^^
 
 Connect with AI Arena platform
+^^^^^^^^^^^^^^
 
 
 课后习题（后面设计）
@@ -81,6 +88,6 @@ Connect with AI Arena platform
     
     时间：以年为单位
 
-    Ref: https://github.com/subaruclover/MARL_AI_outline/tree/main/_static/references
+    参考文件: https://github.com/subaruclover/MARL_AI_outline/tree/main/_static/references
 
 
