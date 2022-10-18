@@ -1,4 +1,4 @@
-.. MARL文档，created by
+.. MARL文档, created by
    sphinx-quickstart on Sun night Oct 16 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -7,6 +7,7 @@
 ===================================
 
 .. image:: /_static/images/honor-of-kings.png
+   :width: 500
 
 实战云多智能体强化学习项目旨在帮助更多的高校，能够应用开悟平台开展人工智能教学工作，本项目将面向中国本科人工智能专业领域，设计一套完整的课程方案。
 
