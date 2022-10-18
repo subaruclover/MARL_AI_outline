@@ -20,10 +20,10 @@ MARL has its documentation hosted on Read the Docs.
 --------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: 强化学习概论
+   :maxdepth: 1
+   :caption: usage
 
 .. toctree::
-   :maxdepth: 2
-   :caption: 多智能体强化学习提纲  
+   :maxdepth: 1
+   :caption: intro 
    
