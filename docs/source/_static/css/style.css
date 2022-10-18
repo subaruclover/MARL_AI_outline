@@ -13,7 +13,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p.capti
 }
 
 .wy-nav-content {
-    max-width: 1200px !important;
+    max-width: 1400px !important;
 }
 
 .wy-nav-content-wrap, .wy-menu li.current > a  {
@@ -42,7 +42,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p.capti
     background-repeat: no-repeat;
     background-position: center;
     padding: 0;
-    margin: 0.2em 0.8em;
+    margin: 0.4045em 0.809em;
     color: #333;
 }
 
@@ -51,13 +51,13 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p.capti
 }
 
 @media screen and (max-width: 768px) {
-    /* .wy-side-nav-search>a img.logo {
+    .wy-side-nav-search>a img.logo {
         height: 30px;
-    } */
-    .wy-side-nav-search .wy-dropdown > a img.logo, 
+    }
+    /* .wy-side-nav-search .wy-dropdown > a img.logo, 
     .wy-side-nav-search > a img.logo {
         width: 20px;
-    }
+    } */
 }
 
 /* This is needed to ensure that logo above search scales properly */

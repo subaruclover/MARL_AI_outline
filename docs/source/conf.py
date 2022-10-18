@@ -50,9 +50,9 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_static_path = ['_static']
 
 html_logo = '_static/images/logo.png'
-# html_theme_options = {
-#     'logo_only': True
-# }
+html_theme_options = {
+    'logo_only': True
+}
 
 def setup(app):
     app.add_js_file(
