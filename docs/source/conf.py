@@ -1,6 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+import sphinx_rtd_theme
 
 project = 'MARL'
 copyright = '2022, Qiong'
@@ -17,6 +18,13 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.coverage',
+    'sphinx.ext.imgmath',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages',
+    'sphinxcontrib.bibtex',
 ]
 
 intersphinx_mapping = {
@@ -30,6 +38,13 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+# Add any paths that contain custom static files (such as style sheets) here
+html_static_path = ['marker']
+
+html_logo = 'maker/images/logo.png'
+
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
