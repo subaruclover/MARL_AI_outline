@@ -17,7 +17,17 @@ https://www.bilibili.com/video/BV1fz4y1S72S?p=1&vd_source=38b5017372fe991e5b7e30
 
 链接：https://www.boyuai.com/elites/
 
-西湖大学(课本，视频)
+强化学习课程：https://www.boyuai.com/elites/course/xVqhU42F5IDky94x
+
+西湖大学(课本，视频)赵世钰教授团队
+
+书籍链接 https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning
+
+课程视频（中文）
+Bilibili https://space.bilibili.com/2044042934 
+Youtube频道 https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists
+
+其他相关课程
 
 
 课程设计
