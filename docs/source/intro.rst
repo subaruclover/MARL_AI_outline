@@ -10,6 +10,9 @@ RLChina 强化学习社区
 
 链接：http://rlchina.org/
 
+UCL 汪军教授《Multi-agent AI》课程（中文字幕）
+https://www.bilibili.com/video/BV1fz4y1S72S?p=1&vd_source=38b5017372fe991e5b7e30cb941ee82c
+
 伯禹AI(由上海交通大学张伟楠教授团队出品)
 
 链接：https://www.boyuai.com/elites/
