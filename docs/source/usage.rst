@@ -7,10 +7,15 @@
 ------------
 
 课程大纲
+
 Background
+
 Concept
+
 Equations
+
 Methods (分类)
+
 glossary术语表
 
 
