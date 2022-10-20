@@ -16,19 +16,18 @@
 
 参加者: 任川, Nicole, Qiong
 
-查看 :doc:`usage` 部分了解更多信息。
-
-MARL的文档托管在 Read the Docs 上。
+查看 :doc:`usage` 和 :doc:`intro` 部分了解更多信息。
 
 .. note::
 
-   该项目正在积极开发中。
+   该项目正在积极开发中。该MARL的课程大纲文档托管在 Read the Docs 上。
 
 目录
 --------
 
+
 .. toctree::
-   usage
+   usage   
    :name: 强化学习概论
 
    intro 
