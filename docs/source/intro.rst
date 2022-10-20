@@ -1,10 +1,10 @@
 多智能体强化学习
-=====
+=====================
 
 .. _intro:
 
 现有的(多智能)体强化学习中文社区教材和讲义
-------------
+--------------------------------------------
 
 RLChina 强化学习社区
 
@@ -48,26 +48,26 @@ Youtube频道 https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists
 .. _marl_outline:
 
 课程设计outline 
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 MARL Concept
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 Classification
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 Current solutions (based on different criteria)
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     
     --Cooperative
    
     --Model
 
 Algorithms introduction and code review
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Connect with AI Arena platform
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 课后习题（后面设计）

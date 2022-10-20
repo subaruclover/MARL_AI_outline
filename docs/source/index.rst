@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 欢迎来到实战云多智能体强化学习项目大纲
-===================================
+======================================
 
 .. image:: /_static/images/honor-of-kings.png
    :width: 500
