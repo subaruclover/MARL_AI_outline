@@ -52,8 +52,14 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="usage.html">强化学习概论</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">多智能体强化学习</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#intro">现有的(多智能)体强化学习中文社区教材和讲义</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">课程设计</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#intro">现有的(多智能)体强化学习中文社区教材和讲义</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#rlchina">1. RLChina 强化学习社区</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ai">2. 伯禹AI(由上海交通大学张伟楠教授团队出品)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#marl-material3">3. 西湖大学(课本，视频)赵世钰教授团队，飞行器控制领域</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#marl-material4">4. 其他相关课程和资料</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">课程设计</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#outline">课程设计outline</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#marl-concept">MARL Concept</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#classification">Classification</a></li>
@@ -94,30 +100,108 @@
 <h1>多智能体强化学习<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h1>
 <section id="intro">
 <span id="id2"></span><h2>现有的(多智能)体强化学习中文社区教材和讲义<a class="headerlink" href="#intro" title="Permalink to this heading">¶</a></h2>
-<p>RLChina 强化学习社区</p>
-<p>链接：<a class="reference external" href="http://rlchina.org/">http://rlchina.org/</a></p>
-<p>UCL 汪军教授《Multi-agent AI》课程（中文字幕）
-<a class="reference external" href="https://www.bilibili.com/video/BV1fz4y1S72S?p=1&amp;vd_source=38b5017372fe991e5b7e30cb941ee82c">https://www.bilibili.com/video/BV1fz4y1S72S?p=1&amp;vd_source=38b5017372fe991e5b7e30cb941ee82c</a></p>
-<p>伯禹AI(由上海交通大学张伟楠教授团队出品)</p>
-<p>链接：<a class="reference external" href="https://www.boyuai.com/elites/">https://www.boyuai.com/elites/</a></p>
+<section id="rlchina">
+<span id="marl-material"></span><h3>1. RLChina 强化学习社区<a class="headerlink" href="#rlchina" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>链接：<a class="reference external" href="http://rlchina.org/">http://rlchina.org/</a></p>
+<p>UCL 汪军教授《Multi-agent AI》课程（中文字幕）</p>
+<p><a class="reference external" href="https://www.bilibili.com/video/BV1fz4y1S72S?p=1&amp;vd_source=38b5017372fe991e5b7e30cb941ee82c">https://www.bilibili.com/video/BV1fz4y1S72S?p=1&amp;vd_source=38b5017372fe991e5b7e30cb941ee82c</a></p>
+</div></blockquote>
+</section>
+<section id="ai">
+<span id="marl-material2"></span><h3>2. 伯禹AI(由上海交通大学张伟楠教授团队出品)<a class="headerlink" href="#ai" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">链接</span></code>：<a class="reference external" href="https://www.boyuai.com/elites/">https://www.boyuai.com/elites/</a></p>
 <p>强化学习课程：<a class="reference external" href="https://www.boyuai.com/elites/course/xVqhU42F5IDky94x">https://www.boyuai.com/elites/course/xVqhU42F5IDky94x</a></p>
-<p>西湖大学(课本，视频)赵世钰教授团队，飞行器控制领域</p>
-<p>书籍链接 <a class="reference external" href="https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning">https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning</a></p>
+<p>伯禹AI 强化学习课程大纲：</p>
+<ol class="arabic">
+<li><p><code class="docutils literal notranslate"><span class="pre">模块一</span> <span class="pre">/</span> <span class="pre">强化学习基础</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>- 多臂老虎机 (Multi-armed bandits problem) /
+- 马尔科夫决策过程 (Markov Decision Process (MDP)) /
+- 基于动态规划的强化学习 (Dynamic Programing (DP)) 「代码实践」
+</pre></div>
+</div>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">模块二</span> <span class="pre">/</span> <span class="pre">模型无关强化学习方法</span> <span class="pre">(model-free</span> <span class="pre">RL)</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>- 蒙特卡罗方法 (Monte Carlo (MC) method) /
+- 蒙特卡罗价值预测 (MC value based evaluation (Prediction)) /
+- 重要性采样 (Importance sampling) /
+- 时序差分学习 (Temporal difference (TD) learning) /
+- SARSA 「代码实践」/
+- Q-learning 「代码实践」/
+- 多步自助法 (n-step) /
+- 参数化值函数近似 (Fucntion approximation) /
+- 状态值函数与状态-动作值函数 (State value function and state-action value function)/
+- 策略梯度方法 (Policy gradiant (PG) method) /
+- Actor-Critic
+</pre></div>
+</div>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">模块三</span> <span class="pre">/</span> <span class="pre">基于模型的强化学习方法</span> <span class="pre">(model-based</span> <span class="pre">RL)</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>- 代码实践：策略梯度
+- 规划与学习之入门算法与介绍 (Policy Programing) /
+- 规划与学习之采样方法 (Sampling) /
+- 规划与学习之决策时规划 (Policy)
+</pre></div>
+</div>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">模块四</span> <span class="pre">/</span> <span class="pre">深度强化学习</span> <span class="pre">(Deep</span> <span class="pre">RL)</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>- 深度强化学习介绍 (Deep Reinforcement Learning) /
+- 深度Q网络 (Deep-Q network (DQN)) 「代码实践」 /
+- A3C (Asynchronous Advantage Actor-Critic) 代码实践」/
+- 信任域策略优化 (Trust region policy optimization (TRPO))/
+- 邻近策略优化 (Proximal policy optimization (PPO)) 「代码实践」/
+- 确定性策略梯度 (Deterministic Policy Gradient (DPG)) /
+- 深度确定性策略梯度 (Deep Deterministic Policy Gradient (DDPG))
+</pre></div>
+</div>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">模块五</span> <span class="pre">/</span> <span class="pre">强化学习进阶</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>- 概率图强化学习：Soft Q-learning &amp; Soft Actor-Critic /
+- 模仿学习 (Imitation learning) /
+- 行为克隆 /
+- 逆强化学习 (Inverse RL) /
+- 生成对抗模仿学习 (Generative adversarial imitation learning (GAIL)) /
+- 参数化动作空间 /
+- 模型预测控制 /
+- 基于模型的策略优化 /
+- 目标导向的强化学习 /
+# 多智能体强化学习 (MARL) /
+- 离线强化学习 (offline RL)
+</pre></div>
+</div>
+</li>
+</ol>
+</div></blockquote>
+</section>
+<section id="marl-material3">
+<span id="id3"></span><h3>3. 西湖大学(课本，视频)赵世钰教授团队，飞行器控制领域<a class="headerlink" href="#marl-material3" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>书籍链接 <a class="reference external" href="https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning">https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning</a></p>
 <p>课程视频（中文）
 Bilibili <a class="reference external" href="https://space.bilibili.com/2044042934">https://space.bilibili.com/2044042934</a>
 Youtube频道 <a class="reference external" href="https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists">https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists</a></p>
-<p>其他相关课程</p>
+</div></blockquote>
+</section>
+<section id="marl-material4">
+<span id="id4"></span><h3>4. 其他相关课程和资料<a class="headerlink" href="#marl-material4" title="Permalink to this heading">¶</a></h3>
+<blockquote>
+<div><p>伯克利+上海交通大学 RL</p>
+<p>AAAI-22 中科院自动化所-飞行器智能技术，多智能体AI团队
+Concentration network for Reinforcement Learning of Large-scale Multi-agent systems</p>
+</div></blockquote>
 <p>参考文献（MARL survey）list</p>
 <blockquote>
 <div><p>RL 溯源，分支 -&gt; control theory, neuroscience (old paper)</p>
 </div></blockquote>
 </section>
-<section id="id3">
-<h2>课程设计<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h2>
-<p>对MARL这一块目前没有很系统的介绍</p>
+</section>
+<section id="id5">
+<h2>课程设计<a class="headerlink" href="#id5" title="Permalink to this heading">¶</a></h2>
+<p>当前在强化学习领域中，对MARL这一块目前没有很系统的介绍，最初RL用于单个个体 (single agent) 在和环境和互动中习得如何做决策，学习达到奖励的策略。现在大量的关注涌向了多智能体的领域，状态空间，状态-行为空间急速上升，其他智能体和环境的仅部分可观测特性使得适用于单智能体的算法在多智能体的情况下往往不再适用。我们可以按照任务的标准或者模型的标准来划分各种多智能体的算法分类。</p>
 <p>分类</p>
 <p>现有的解决方案</p>
-<p>实例讲解</p>
+<p>实例讲解（代码实践）</p>
 <section id="outline">
 <span id="marl-outline"></span><h3>课程设计outline<a class="headerlink" href="#outline" title="Permalink to this heading">¶</a></h3>
 </section>
