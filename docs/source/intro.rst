@@ -3,23 +3,25 @@
 
 .. _intro:
 
-现有的(多智能体)强化学习中文社区教材和讲义
+现有的（多智能体）强化学习中文社区教材和讲义
 --------------------------------------------
 
-.. _marl_material:
+**Let's 站在前人的肩膀上** 
+
+.. _marl_material: 
 
 1. RLChina 强化学习社区
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    ``链接``：http://rlchina.org/
+    ``链接``：http://rlchina.org/ (推荐指数★★★★☆ (●ﾟ▽ﾟ●) )
 
     .. `链接 <http://rlchina.org/>`_
 
     UCL 汪军教授《Multi-agent AI》课程（中文字幕）Bilibili：
 
-    `Bilibili 视频链接 <https://www.bilibili.com/video/BV1fz4y1S72S?p=1&vd_source=38b5017372fe991e5b7e30cb941ee82c>`_
+    `Multi-agent AI - 视频链接 <https://www.bilibili.com/video/BV1fz4y1S72S?p=1&vd_source=38b5017372fe991e5b7e30cb941ee82c>`_
 
-    Multi-agent AI 课程简介 (侧重多智能体)：
+    Multi-agent AI 课程简介（侧重多智能体）：
 
     该课程主要介绍人工智能（AI）的一个子领域——多智能体机器学习。多智能体学习在多个领域中均有体现，多智能体间不仅能与环境相互作用，而且彼此相互作用。因此，相关应用也越来越多，比如 `无人机群` 的控制和仓库机器人的合作，以及分布式传感器网络/交通的优化以及机器竞标。该课程将机器学习的研究与博弈论和经济学的研究相结合，包括 ``博弈论`` 、 ``拍卖理论`` 、 ``算法机制设计`` 、 ``多智能体（深度）强化学习`` 等主题。同时还将覆盖和讨论相关的实际应用，包括在线广告、在线拍卖、生成模型的对抗训练、机器人规划以及玩在线游戏的智能体。
 
@@ -79,7 +81,7 @@
 2. 伯禹AI (由上海交通大学张伟楠教授团队出品)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    ``链接``：https://www.boyuai.com/elites/
+    ``链接``：https://www.boyuai.com/elites/ (推荐指数★★★★★ (✪ω✪) )
 
     伯禹AI强化学习课程：
     
@@ -146,7 +148,7 @@
 
     《强化学习的数学原理》（从零开始透彻理解强化学习）侧重从数学基础推导出发，从零基础开始介绍强化学习，并配套对应的书籍(不断更新中)和视频课程讲解，推荐没有 **强化学习基础** 同学学习。每周一更新。
 
-    ``链接`` `书籍和课件链接 <https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning>`_
+    ``链接`` `书籍和课件链接 <https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning>`_ (推荐指数★★★★★ (✪ω✪) )
 
     课程视频（中文）Bilibili 和 Youtube频道：
 
@@ -157,109 +159,120 @@
     课程大纲
 
     .. image:: /_static/images/mathRL.png
+        :width: 900
         :alt: MathFoundationRL_chapterRelationship
 
     #. ``第0课 | 课程介绍`` ::
 
-        - 开发这门课的动因 / 
-        - AlphaGo的故事，强化学习的历史、分类等 / 
+        - 0.1 开发这门课的动因 
+        - 0.2 AlphaGo的故事，强化学习的历史、分类等 
 
     #. ``第1课 | 基本概念`` ::
     
-        - State, action, policy等 
-        - Reward, return, MDP等
+        - 1.1 State, action, policy等 
+        - 1.2 Reward, return, MDP等
     
     #. ``第2课 | 贝尔曼公式`` ::
 
-        - 例子
-        - state value
-        - 公式
-        - 公式
-        - action 
+        - 2.1 例子
+        - 2.2 state value
+        - 2.3 公式
+        - 2.4 公式
+        - 2.5 action 
 
     #. ``第3课 | 贝尔曼公式`` ::
     
-        - 例子
-        - 2
-        - 3
-        - 4
+        - 3.1 例子
+        - 3.2 
+        - 3.3 
+        - 3.4 
     
     #. ``第4课 | 值迭代和策略迭代`` ::
         
-        - 例子
-        - 2
-        - 3
+        - 4.1 例子
+        - 4.2 
+        - 4.3 
 
     #. ``第5课 | 蒙特卡罗方法`` ::
         
-        - 例子
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
+        - 5.1 例子
+        - 5.2 
+        - 5.3 
+        - 5.4 
+        - 5.5 
+        - 5.6 
 
     #. ``第6课 | 随机近似与随机梯度下降`` ::
         
-        - 例子
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-        - 7    
+        - 6.1 例子
+        - 6.2 
+        - 6.3 
+        - 6.4 
+        - 6.5 
+        - 6.6 
+        - 6.7 
     
     #. ``第7课 | TD`` ::
         
-        - 例子
-        - 2
-        - 3
-        - 4
+        - 7.1 例子
+        - 7.2 
+        - 7.3 
+        - 7.4 
 
     #. ``第8课 | value function approx`` ::
         
-        - 例子
-        - 2
-        - 3
-        - 4
+        - 8.1 例子
+        - 8.2 
+        - 8.3 
+        - 8.4 
    
     #. ``第9课 | policy function approx (PG)`` ::
         
-        - 例子
-        - 2
-        - 3
-        - 4
+        - 9.1 例子
+        - 9.2 
+        - 9.3 
+        - 9.4 
 
     #. ``第10课 | AC methods`` ::
         
-        - 例子
-        - 2
-        - 3
-        - 4
+        - 10.1 例子
+        - 10.2 
+        - 10.3 
+        - 10.4 
 
 .. _marl_material4:
 
-1. 其他相关课程和资料
+4. 其他相关课程和资料
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
     伯克利+上海交通大学 RL
 
-    CS285 (English)
+    CS285 (English) DRL 
 
-    OpenAI SpinningUp
+    OpenAI SpinningUp (Link)
 
-    Tianshou platform
+    Tianshou platform (Link，中文链接)
 
     AAAI-22 中科院自动化所-飞行器智能技术，多智能体AI团队
     Concentration network for Reinforcement Learning of Large-scale Multi-agent systems
 
 
-参考文献（MARL survey）list
+    **参考文献（MARL survey）list:**
 
- RL 溯源，分支 -> control theory, neuroscience (old paper)
+    | 2019 review paper: Pablo H., et al. A survey and critique of multiagent deep reinforcement learning
+    | Zhang2019: Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms
+    | OroojlooyJadid2019: A Review of Cooperative Multi-Agent Deep Reinforcement Learning
+    | Nguyen2020, Deep Reinforcement Learning for Multiagent Systems: A Review of Challenges, Solutions, and Applications
+    | Fu 2022: Revisiting Some Common Practices in Cooperative Multi-Agent Reinforcement Learning
+    | 知乎专栏
 
 
-课程设计
+    RL 溯源，分支 -> control theory, neuroscience (old paper)
+
+
+.. _marl_course_design:
+
+本课程设计
 ----------------
 
 前言 - 为什么使用腾讯开悟平台学习多智能体强化学习?
@@ -322,27 +335,27 @@ Connect with AI Arena platform
 
     ``Books and papers (不断补充中)``
 
-    * For Multiagent Systems:
+    * For Multi-Agent Systems:
 
-        `Multiagent Systems - algorithmic, game-theoretic & logical foundations <https://github.com/subaruclover/MARL_AI_outline/tree/main/docs/source/_static/references>`_
+        | `Multiagent Systems - algorithmic, game-theoretic & logical foundations <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Multiagent%20Systems%20algorithmic%2C%20game-theoretic%20and%20logical%20foundations.pdf>`_
 
 
-    * 强化学习:
-
-        Sutton
-        Algorithms
-        MDP 2013
-        Shiyu Zhao 2022
-        Weinan Zhang (hands on RL, new book)
-        etc
-        paper (DRL, MARL)
+    * 强化学习（ + 每一个文档的链接）:
+        | Sutton (1st & 2nd edition)
+        | Algorithms RL 
+        | MDP 2013
+        | Shiyu Zhao 2022 MathFoundationRL
+        | Weinan Zhang 2022 (hands on RL in Chinese, new book)
+        | etc...
+        | paper (DRL, MARL)
+        | hands on DRL (books)
     
     
     * 机器学习:
-        PRML Bishop
+        | PRML Bishop (Link)
 
     * 腾讯开悟平台:
-        2020 NeurIPS (github)
-        2022 NeurIPS (github)
+        | Ye. D, et al. **Towards Playing Full MOBA Games with Deep Reinforcement Learning**, 2020 NeurIPS (github)
+        | Wei. H et al, **Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning**, 2022 NeurIPS (github)
 
        

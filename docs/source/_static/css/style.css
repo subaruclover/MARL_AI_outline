@@ -69,6 +69,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p.capti
 /* Use our red for literals (it's very similar to the original color) */
 .rst-content tt.literal, .rst-content tt.literal, .rst-content code.literal {
     color: #5DA2FB;
+    font-size: 100%;
 }
 
 .rst-content tt.xref, a .rst-content tt, .rst-content tt.xref,
@@ -79,7 +80,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p.capti
 /* Change link colors (except for the menu) */
 
 a {
-    color: #4692BC;
+    color: #4692bc;
 }
 
 a:hover {
