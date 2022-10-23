@@ -306,9 +306,10 @@
 
 .. Preface - why MARL with AI Arena
 
-当前在强化学习领域中，对MARL这一块目前没有很系统的介绍，最初RL用于单个个体 (single agent) 在和环境和互动中习得如何做决策，学习达到奖励的策略。现在大量的关注涌向了多智能体的领域，状态空间，状态-行为空间急速上升，其他智能体和环境的仅部分可观测特性使得适用于单智能体的算法在多智能体的情况下往往不再适用。我们可以按照任务的标准或者模型的标准来划分各种多智能体的算法分类。腾讯开悟平台是首个国内以游戏 **王者荣耀** 为实验平台开发的API，可以实现 *1v1 ~ 5v5* 的不同数量的智能体的合作/对抗实验测试。
+当前在强化学习领域中，对MARL这一块目前没有很系统的介绍，最初RL用于单个个体 (single agent) 在和环境和互动中习得如何做决策，学习达到奖励的策略。现在大量的关注涌向了多智能体的领域，状态空间，状态-行为空间急速上升，其他智能体和环境的仅部分可观测特性使得适用于单智能体的算法在多智能体的情况下往往不再适用。当然，如果我们可以把智能体当成单个的智能体，其他智能体和环境全都看做环境，这样的“独立”智能体简单的将多智能体的问题转化成单智能体的考虑范畴，但这样做训练效果往往不尽人意。越来越多的科研人员从不同的角度提出了许多效果还不错的算法。
+我们可以按照任务的标准或者模型的标准来划分各种多智能体的算法分类。而本课程的多智能体RL部分，将对每一个类别中比较具有代表性的算法进行讲解，每一种算法都会从论文本身出发，配合代码讲解。此外，腾讯开悟平台是首个国内以游戏 **王者荣耀** 为实验平台开发的API，可以实现 *1v1 ~ 5v5* 的不同数量的智能体的合作/对抗实验测试，是本课程MARL部分将使用的测试平台，同学们将通过学习如何配置实验环境，如何将不同的算法应用在开悟平台中，理解和掌握RL的算法和实验过程。
 
-.. 分类
+.. 分类 advantage function, baselines, COMA, MAAC, SAC, QMIX, VDN
 
 .. 现有的解决方案
 
@@ -344,6 +345,8 @@
     #. 代码实践
 
 
+**一些拓展（GNN+RL）**
+
 **细化课程要点：**
 
 ``每堂课的课后习题（Q&A设计）``
@@ -361,7 +364,7 @@
     
     时间：以年为单位
 
-    参考文献、书籍 链接: `Github <https://github.com/subaruclover/MARL_AI_outline/tree/main/docs/source/_static/references>`_ （ ``要注意书籍版权`` ）
+    参考文献、书籍 链接: `Github link <https://github.com/subaruclover/MARL_AI_outline/tree/main/docs/source/_static/references>`_ （ ``要注意书籍版权`` ）
 
     ``Books and papers (不断补充中)`` 
 
@@ -384,7 +387,7 @@
         | PRML Bishop (Link)
 
     * 腾讯开悟平台:
-        | Ye. D, et al. **Towards Playing Full MOBA Games with Deep Reinforcement Learning** (`paper <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Towards%20Playing%20Full%20MOBA%20Games%20with%20Deep%20Reinforcement%20Learning.pdf>`_), 2020 NeurIPS 
-        | Wei. H et al, **Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning** (`paper <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Honor%20of%20Kings%20Arena-%20an%20Environment%20for%20Generalization%20in%20Competitive%20Reinforcement%20Learning.pdf>`_), 2022 NeurIPS (`Github repo <https://github.com/tencent-ailab/hok_env>`_)
+        | Ye. D, et al. **Towards Playing Full MOBA Games with Deep Reinforcement Learning** (`paper1 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Towards%20Playing%20Full%20MOBA%20Games%20with%20Deep%20Reinforcement%20Learning.pdf>`_), 2020 NeurIPS 
+        | Wei. H et al, **Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning** (`paper2 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Honor%20of%20Kings%20Arena-%20an%20Environment%20for%20Generalization%20in%20Competitive%20Reinforcement%20Learning.pdf>`_), 2022 NeurIPS (`Github repo <https://github.com/tencent-ailab/hok_env>`_)
 
        
