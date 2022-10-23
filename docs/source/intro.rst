@@ -170,72 +170,73 @@
     #. ``第1课 | 基本概念`` ::
     
         - 1.1 State, action, policy等 
-        - 1.2 Reward, return, MDP等
+        - 1.2 Reward, Return, MDP等
     
     #. ``第2课 | 贝尔曼公式`` ::
 
-        - 2.1 例子
-        - 2.2 state value
-        - 2.3 公式
-        - 2.4 公式
-        - 2.5 action 
+        - 2.1 例子说明Return的重要性
+        - 2.2 State value的定义
+        - 2.3 贝尔曼公式的详细推导
+        - 2.4 公式向量形式与求解
+        - 2.5 Action value的定义
 
-    #. ``第3课 | 贝尔曼公式`` ::
+    #. ``第3课 | 贝尔曼最优公式`` ::
     
-        - 3.1 例子
-        - 3.2 
-        - 3.3 
-        - 3.4 
+        - 3.1 例子-如何改进策略
+        - 3.2 最优策略和公式推导
+        - 3.3 公式求解以及最优性
+        - 3.4 最优策略的有趣性质
     
-    #. ``第4课 | 值迭代和策略迭代`` ::
+    #. ``第4课 | 值迭代与策略迭代`` ::
         
-        - 4.1 例子
-        - 4.2 
-        - 4.3 
+        - 4.1 值迭代算法
+        - 4.2 策略迭代算法
+        - 4.3 截断策略迭代算法
 
     #. ``第5课 | 蒙特卡罗方法`` ::
         
-        - 5.1 例子
-        - 5.2 
-        - 5.3 
-        - 5.4 
-        - 5.5 
-        - 5.6 
+        - 5.1 通过例子介绍蒙特卡罗
+        - 5.2 MC Basic算法介绍
+        - 5.3 MC Basic算法例子
+        - 5.4 MC Exploring Starts算法
+        - 5.5 MC Epislon-Greedy算法介绍
+        - 5.6 MC Epislon-Greedy算法例子
 
     #. ``第6课 | 随机近似与随机梯度下降`` ::
         
-        - 6.1 例子
-        - 6.2 
-        - 6.3 
-        - 6.4 
-        - 6.5 
-        - 6.6 
-        - 6.7 
+        - 6.1 通过例子介绍Iterative mean estimation
+        - 6.2 Robbins-Monro（RM）算法介绍与例子
+        - 6.3 Robbins-Monro算法收敛性及应用
+        - 6.4 随机梯度下降（Stochastic Gradient Descent）算法介绍
+        - 6.5 随机梯度下降收敛性及例子
+        - 6.6 随机梯度下降有趣的性质
+        - 6.7 随机梯度下降（SGD）对比BGD（Batch GD）、MBGD（Mini-batch GD）
     
-    #. ``第7课 | TD`` ::
+    #. ``第7课 | 时序差分学习（TD Learning）`` ::
         
         - 7.1 例子
-        - 7.2 
-        - 7.3 
+        - 7.2 SARSA
+        - 7.3 Q-learning
         - 7.4 
 
-    #. ``第8课 | value function approx`` ::
+    #. ``第8课 | Value function approx`` ::
         
         - 8.1 例子
-        - 8.2 
-        - 8.3 
-        - 8.4 
+        - 8.2 目标函数
+        - 8.3 优化算法
+        - 8.4 线性函数近似
+        - 8.5 DQN
    
-    #. ``第9课 | policy function approx (PG)`` ::
+    #. ``第9课 | Policy function approx (PG)`` ::
         
-        - 9.1 例子
+        - 9.1 策略梯度概念
         - 9.2 
         - 9.3 
         - 9.4 
 
-    #. ``第10课 | AC methods`` ::
+    #. ``第10课 | Actor-Critic methods`` ::
         
-        - 10.1 例子
+        - 10.1 
         - 10.2 
         - 10.3 
         - 10.4 
@@ -245,72 +246,93 @@
 4. 其他相关课程和资料
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-    伯克利+上海交通大学 RL
+    英文学习材料：
 
-    CS285 (English) DRL 
+    #. 强化学习课程 RL Course by David Silver （2015） `课程视频(Youtube)和课件 <https://www.davidsilver.uk/teaching/>`_
 
-    OpenAI SpinningUp (Link)
+    #. CS285 (English) @ UC Berkeley 深度强化学习（DRL）课程 `CS285课程视频(Youtube)和课件 <http://rail.eecs.berkeley.edu/deeprlcourse/>`_
 
-    Tianshou platform (Link，中文链接)
+    #. OpenAI Spinning Up (`Spinning Up in Deep RL <https://spinningup.openai.com/en/latest/>`_)
 
-    AAAI-22 中科院自动化所-飞行器智能技术，多智能体AI团队
-    Concentration network for Reinforcement Learning of Large-scale Multi-agent systems
+    #. OpenAI bootcamp (`视频和课件 <https://sites.google.com/view/deep-rl-bootcamp/lectures>`_)
+
+    中文学习材料：
+
+    #. 天授平台 (`英文文档 <https://tianshou.readthedocs.io/en/master/>`_， `中文文档 <https://tianshou.readthedocs.io/zh/master/>`_)
+
+    #. 强化学习课程 by UCLA 周博磊教授 (`Github <https://github.com/zhoubolei/introRL>`_, `Bilibili <https://space.bilibili.com/511221970/channel/seriesdetail?sid=764099&ctype=0>`_)
+    
+    #. 机器学习与深度学习、强化学习 邹博 （2019）
+
+.. _marl_material5:
+
+5. **多智能体强化学习文献综述（MARL survey）& Papers:**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    
+    （In year order）
+
+    * Hernandez-Leal, Pablo, Bilal Kartal, and Matthew E. Taylor. "A survey and critique of multiagent deep reinforcement learning." *Autonomous Agents and Multi-Agent Systems* 33.6 (2019): 750-797.
+
+    * Nguyen, Thanh Thi, Ngoc Duy Nguyen, and Saeid Nahavandi. "Deep reinforcement learning for multiagent systems: A review of challenges, solutions, and applications." *IEEE transactions on cybernetics* 50.9 (2020): 3826-3839.
+
+    * Zhang, Kaiqing, Zhuoran Yang, and Tamer Başar. "Multi-agent reinforcement learning: A selective overview of theories and algorithms." *Handbook of Reinforcement Learning and Control* (2021): 321-384.
+
+    * Oroojlooy, Afshin, and Davood Hajinezhad. "A review of cooperative multi-agent deep reinforcement learning." *Applied Intelligence* (2022): 1-46.
+
+    * Fu, Wei, Chao Yu, Zelai Xu, Jiaqi Yang, and Yi Wu. "Revisiting some common practices in cooperative multi-agent reinforcement learning." *arXiv preprint* arXiv:2206.07505 (2022).
+
+    * Fu, Qingxu, et al. "Concentration Network for Reinforcement Learning of Large-Scale Multi-Agent Systems." *arXiv preprint* arXiv:2203.06416 (2022).  (AAAI-22 中科院自动化所-飞行器智能技术，多智能体AI， `视频讲解训练全过程展示 <https://www.bilibili.com/video/BV1vF411M7N9?share_source=copy_web&vd_source=3a42fd9dcf75064acaf3ec0f8218e373>`_ )
 
 
-    **参考文献（MARL survey）list:**
+    * 【多智能体强化学习】新手入门算法论文大总结 `知乎专栏1 <https://zhuanlan.zhihu.com/p/432241482>`_ 
 
-    | 2019 review paper: Pablo H., et al. A survey and critique of multiagent deep reinforcement learning
-    | Zhang2019: Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms
-    | OroojlooyJadid2019: A Review of Cooperative Multi-Agent Deep Reinforcement Learning
-    | Nguyen2020, Deep Reinforcement Learning for Multiagent Systems: A Review of Challenges, Solutions, and Applications
-    | Fu 2022: Revisiting Some Common Practices in Cooperative Multi-Agent Reinforcement Learning
-    | 知乎专栏
+    * 基于通信的多智能体强化学习方法——简介及研究现状 `知乎专栏2 <https://zhuanlan.zhihu.com/p/421098367>`_
 
 
-    RL 溯源，分支 -> control theory, neuroscience (old paper)
+    .. RL 溯源，分支 -> control theory, neuroscience (old paper)
+
 
 
 .. _marl_course_design:
 
-本课程设计
-----------------
+本课程设计大纲（MARL部分）
+-----------------------------
 
-前言 - 为什么使用腾讯开悟平台学习多智能体强化学习?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. 前言 - 为什么使用腾讯开悟平台学习多智能体强化学习?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. Preface - why MARL with AI Arena
 
 当前在强化学习领域中，对MARL这一块目前没有很系统的介绍，最初RL用于单个个体 (single agent) 在和环境和互动中习得如何做决策，学习达到奖励的策略。现在大量的关注涌向了多智能体的领域，状态空间，状态-行为空间急速上升，其他智能体和环境的仅部分可观测特性使得适用于单智能体的算法在多智能体的情况下往往不再适用。我们可以按照任务的标准或者模型的标准来划分各种多智能体的算法分类。腾讯开悟平台是首个国内以游戏 **王者荣耀** 为实验平台开发的API，可以实现 *1v1 ~ 5v5* 的不同数量的智能体的合作/对抗实验测试。
 
-分类
+.. 分类
 
-现有的解决方案
+.. 现有的解决方案
 
-实例讲解（代码实践）
+.. 实例讲解（代码实践）
 
 .. _marl_outline:
 
-课程设计outline 
-^^^^^^^^^^^^^^^^^^^
+2. MARL概念和背景知识
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-MARL Concept
-^^^^^^^^^^^^^^^^^^^
+3. 主流的MARL分类（Classification）
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Classification
-^^^^^^^^^^^^^^^^^^^
-
-Current solutions (based on different criteria)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+不同分类下的代表算法Current solutions (based on different criteria)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     
     --Cooperative
    
     --Model
 
-Algorithms introduction and code review
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4. 算法介绍，代码（Algorithms introduction and code）
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Connect with AI Arena platform
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+5. 与腾讯开悟平台结合的MARL
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    #. 实例讲解 
+    #. 代码实践
 
 
 课后习题（后面设计）
