@@ -335,25 +335,24 @@
     #. 代码实践
 
 
-课后习题（后面设计）
+**细化课程要点：**
 
-实例讲解
+``每堂课的课后习题（Q&A设计）``
 
-助教答疑（团队）
+``实例讲解``
 
+``助教答疑（团队）``
 
-课件模板
+``课件模板（实战云template、theme）``
 
 .. note::
     要明确这不是一门零基础课
 
     是进阶课
-
-    但是也不担心学不明白
     
     时间：以年为单位
 
-    参考文献: https://github.com/subaruclover/MARL_AI_outline/tree/main/docs/source/_static/references
+    参考文献、书籍 链接: `Github <https://github.com/subaruclover/MARL_AI_outline/tree/main/docs/source/_static/references>`_ （ ``要注意书籍版权`` ）
 
     ``Books and papers (不断补充中)``
 
