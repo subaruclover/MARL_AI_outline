@@ -291,12 +291,15 @@
 
     .. RL 溯源，分支 -> control theory, neuroscience (old paper)
 
+``小结当前的单智能体RL``：基本上所有的课程和讲义，都涵盖了MDP、DP、MC、TD方法、PG方法，其中又可分为model-based/free的情形。无论参考哪一个学习路径，这些都是RL学习中需要掌握和理解的概念。
 
 
 .. _marl_course_design:
 
 本课程设计大纲（MARL部分）
 -----------------------------
+
+.. _marl_preface:
 
 1. 前言 - 为什么使用腾讯开悟平台学习多智能体强化学习?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -311,10 +314,12 @@
 
 .. 实例讲解（代码实践）
 
-.. _marl_outline:
+.. _marl_background:
 
 2. MARL概念和背景知识
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. _marl_class:
 
 3. 主流的MARL分类（Classification）
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -326,8 +331,12 @@
    
     --Model
 
+.. _marl_algs:
+
 4. 算法介绍，代码（Algorithms introduction and code）
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. _marl_aiarena:
 
 5. 与腾讯开悟平台结合的MARL
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -354,11 +363,10 @@
 
     参考文献、书籍 链接: `Github <https://github.com/subaruclover/MARL_AI_outline/tree/main/docs/source/_static/references>`_ （ ``要注意书籍版权`` ）
 
-    ``Books and papers (不断补充中)``
+    ``Books and papers (不断补充中)`` 
 
     * For Multi-Agent Systems:
-
-        | `Multiagent Systems - algorithmic, game-theoretic & logical foundations <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Multiagent%20Systems%20algorithmic%2C%20game-theoretic%20and%20logical%20foundations.pdf>`_
+        `Multiagent Systems - algorithmic, game-theoretic & logical foundations <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Multiagent%20Systems%20algorithmic%2C%20game-theoretic%20and%20logical%20foundations.pdf>`_ 
 
 
     * 强化学习（ + 每一个文档的链接）:
@@ -376,7 +384,7 @@
         | PRML Bishop (Link)
 
     * 腾讯开悟平台:
-        | Ye. D, et al. **Towards Playing Full MOBA Games with Deep Reinforcement Learning**, 2020 NeurIPS (github)
-        | Wei. H et al, **Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning**, 2022 NeurIPS (github)
+        | Ye. D, et al. **Towards Playing Full MOBA Games with Deep Reinforcement Learning** (`paper <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Towards%20Playing%20Full%20MOBA%20Games%20with%20Deep%20Reinforcement%20Learning.pdf>`_), 2020 NeurIPS 
+        | Wei. H et al, **Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning** (`paper <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Honor%20of%20Kings%20Arena-%20an%20Environment%20for%20Generalization%20in%20Competitive%20Reinforcement%20Learning.pdf>`_), 2022 NeurIPS (`Github repo <https://github.com/tencent-ailab/hok_env>`_)
 
        
