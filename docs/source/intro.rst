@@ -146,7 +146,7 @@
 3. 西湖大学 (课本、视频) 赵世钰教授团队，飞行器控制领域
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    《强化学习的数学原理》（从零开始透彻理解强化学习）侧重从数学基础推导出发，从零基础开始介绍强化学习，并配套对应的书籍(不断更新中)和视频课程讲解，推荐没有 **强化学习基础** 同学学习。每周一更新。
+    《强化学习的数学原理》（从零开始透彻理解强化学习）侧重从数学基础推导出发，从零基础开始介绍强化学习，并配套对应的书籍(不断更新中)和视频课程讲解，推荐没有 **强化学习基础** 同学学习。每周一/二更新，线上线下同步，预计2022年年底前更新完毕。
 
     ``链接`` `书籍和课件链接 <https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning>`_ (推荐指数★★★★★ (✪ω✪) )
 
@@ -261,7 +261,9 @@
     #. 天授平台 (`英文文档 <https://tianshou.readthedocs.io/en/master/>`_， `中文文档 <https://tianshou.readthedocs.io/zh/master/>`_)
 
     #. 强化学习课程 by UCLA 周博磊教授 (`Github <https://github.com/zhoubolei/introRL>`_, `Bilibili <https://space.bilibili.com/511221970/channel/seriesdetail?sid=764099&ctype=0>`_)
-    
+
+    #. 莫烦python - `强化学习 <https://mofanpy.com/tutorials/machine-learning/reinforcement-learning/>`_， `GitHub Repo on RL with TF <https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow>`_
+
     #. 机器学习与深度学习、强化学习 邹博 （2019）
 
 .. _marl_material5:
@@ -293,7 +295,6 @@
 
 ``小结当前的单智能体RL``：基本上所有的课程和讲义，都涵盖了MDP、DP、MC、TD方法、PG方法，其中又可分为model-based/free的情形。无论参考哪一个学习路径，这些都是RL学习中需要掌握和理解的概念。
 
-
 .. _marl_course_design:
 
 本课程设计大纲（MARL部分）
@@ -320,32 +321,63 @@
 2. MARL概念和背景知识
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _marl_class:
+* 追溯MARL（不仅仅是MA-DRL）的历史，联合行为（joint action）、联合策略（joint policy）、最优解（optimal policy）等的表达式。
+* 初代MARL，零和（zero-sum）MAL，最大最小Q方法（minimax-Q）
+* MARL的收敛情况，其他常见的问题
+* 各种不同方法的主旨：改善POMDP带来的问题
 
-3. 主流的MARL分类（Classification）
+.. _marl_taxonomy:
+
+3. 主流的MARL分类（Taxonomy）
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-不同分类下的代表算法Current solutions (based on different criteria)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+主要在多智能体深度强化学习（MADRL/MDRL）范围展开
+
+不同分类下的代表算法-当前提出的算法 (分别根据不同的分类标准)
     
-    --Cooperative
+    * 基于进化（涌现）的行为 （Based on emergent behaviors）
+  
+       * OpenAI: Learning to Cooperate, Compete, and Communicate ( `Emergence of grounded compositional language in multi-agent populations. <https://openai.com/blog/learning-to-cooperate-compete-and-communicate/>`_)
+       * OpenAI hide and seek (`Emergent Tool Use From Multi-Agent Autocurricula <https://openai.com/blog/emergent-tool-use/>`_)
+       * Riddle (Decentrailaized-centerailized)
+
+    * 智能体之间引入通信/交流 Learning communication
+       
+       * RIAL
+       * DIAL
+       * MADDPG (理解DDPG的前提下)
+       * 其他方法 
+ 
+    * 智能体之间合作 Cooperative MARL
+       
+       * VDN
+       * QMIX
+       * COMA
+       * MADDPG
    
-    --Model
+    * 基于模型的MARL Agents modeling agent (need people who are working on this to elaborate on)
 
 .. _marl_algs:
 
 4. 算法介绍，代码（Algorithms introduction and code）
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+   * 和第3部分（ :ref:`marl_taxonomy`）结合，对每一种算法进行详细的介绍、代码演示、结果分析。
+   * 不同算法之间的比较（在同一个环境和实验任务中，结合baselines）
+
 .. _marl_aiarena:
 
 5. 与腾讯开悟平台结合的MARL
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    
+    #. 开悟平台介绍
     #. 实例讲解 
     #. 代码实践
 
 
-**一些拓展（GNN+RL）**
+**一些拓展**
+    * Attention is all you need (Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. Advances in neural information processing systems, 30.) `paper <https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf>`_
+    * GNN+RL，与图神经网络结合的RL部分，在MARL中的应用
 
 **细化课程要点：**
 
@@ -358,9 +390,11 @@
 ``课件模板（实战云template、theme）``
 
 .. note::
-    要明确这不是一门零基础课
+    多智能体部分是进阶内容
 
-    是进阶课
+    .. 要明确这不是一门零基础课
+
+    .. 是进阶课
     
     时间：以年为单位
 

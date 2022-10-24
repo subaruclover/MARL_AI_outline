@@ -6,6 +6,14 @@
 单智能体强化学习
 ------------------
 
+强化学习分类
+
+.. figure:: /_static/images/rl_algorithms.svg
+   :width: 600
+   :alt: RL taxonomy
+   
+   A non-exhaustive, but useful taxonomy of algorithms in modern RL. From `OpenAI <https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html>`_.
+
 课程大纲
 
 Background
