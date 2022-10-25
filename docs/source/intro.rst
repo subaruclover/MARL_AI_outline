@@ -288,7 +288,7 @@
 
     * 【多智能体强化学习】新手入门算法论文大总结 `知乎专栏1 <https://zhuanlan.zhihu.com/p/432241482>`_ 
 
-    * 基于通信的多智能体强化学习方法——简介及研究现状 `知乎专栏2 <https://zhuanlan.zhihu.com/p/421098367>`_
+    * 基于 **通信** 的多智能体强化学习方法——简介及研究现状 `知乎专栏2 <https://zhuanlan.zhihu.com/p/421098367>`_
 
     * MARL在 **博弈论方面** 的方法理论基础和最新进展总结概述 `知乎专栏3 <https://zhuanlan.zhihu.com/p/511141230>`_
 
@@ -354,30 +354,30 @@
   
        * OpenAI: Learning to Cooperate, Compete, and Communicate ( `Emergence of grounded compositional language in multi-agent populations <https://openai.com/blog/learning-to-cooperate-compete-and-communicate/>`_)
        * OpenAI hide and seek (`Emergent Tool Use From Multi-Agent Autocurricula <https://openai.com/blog/emergent-tool-use/>`_)
-       * 集中式学习+分散式执行 （Centerailized critic + Decenterailized actors）
+       * 集中式训练+分散式执行 （Centralized Training Decentralized Execution (CTDE)）
 
     ..    * Riddle (Decentrailaized-centerailized)
 
 
     * 智能体之间引入通信/交流 Learning via communication
        
-       * RIAL
-       * DIAL
-       * MADDPG (理解DDPG的前提下)
+       * DIAL(RIAL) (`Learning to Communicate with Deep Multi-Agent Reinforcement Learning <https://proceedings.neurips.cc/paper/2016/file/c7635bfd99248a2cdef8249ef7bfbef4-Paper.pdf>`_)
+       * CommNet (`Learning Multi-Agent Communication with Backpropagation <https://proceedings.neurips.cc/paper/2016/file/55b1927fdafef39c48e5b73b5d61ea60-Paper.pdf>`_)
+       * MADDPG (理解DDPG的前提下， `Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments <https://arxiv.org/pdf/1706.02275.pdf>`_)
        * 其他方法 
  
     * 智能体之间合作/竞争 Cooperative/Competitive MARL
        
        * VDN
        * QMIX
-       * **COMA** 
-       * **MADDPG**
+       * **COMA** (`Counterfactual Multi-Agent Policy Gradients <https://arxiv.org/pdf/1705.08926.pdf>`_)
+       * **MADDPG** (不同分类法)
    
     * 基于模型的MARL Agents modeling agent (need people who are working on this to elaborate on)
 
 .. _marl_algs:
 
-1. 算法介绍，代码（Algorithms introduction and code）
+4. 算法介绍，代码（Algorithms introduction and code）
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    * 和第3部分（:ref:`marl_taxonomy`）结合，对每一种算法进行详细的介绍、代码演示、结果分析。
