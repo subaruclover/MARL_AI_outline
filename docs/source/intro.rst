@@ -335,9 +335,9 @@
 
 .. Tip:: 
         
-    参考`知乎专栏3 <https://zhuanlan.zhihu.com/p/511141230>`_
+    参考 `知乎专栏3 <https://zhuanlan.zhihu.com/p/511141230>`_
 
-    基于学习范式（Based on Learning Paradigms）
+    基于学习范式（Based on Learning Paradigms）的分类
 
     #. 独立学习，共享策略
     #. 独立学习，独立策略（以不同的轮子表示）
