@@ -352,12 +352,14 @@
     
     * 基于进化（涌现）的行为 （Based on emergent behaviors）
   
-       * OpenAI: Learning to Cooperate, Compete, and Communicate ( `Emergence of grounded compositional language in multi-agent populations. <https://openai.com/blog/learning-to-cooperate-compete-and-communicate/>`_)
+       * OpenAI: Learning to Cooperate, Compete, and Communicate ( `Emergence of grounded compositional language in multi-agent populations <https://openai.com/blog/learning-to-cooperate-compete-and-communicate/>`_)
        * OpenAI hide and seek (`Emergent Tool Use From Multi-Agent Autocurricula <https://openai.com/blog/emergent-tool-use/>`_)
-       * Riddle (Decentrailaized-centerailized)
-          * 集中式学习+分散式执行 （Centerailized critic + Decenterailized actors）
+       * 集中式学习+分散式执行 （Centerailized critic + Decenterailized actors）
 
-    * 智能体之间引入通信/交流 Learning communication
+    ..    * Riddle (Decentrailaized-centerailized)
+
+
+    * 智能体之间引入通信/交流 Learning via communication
        
        * RIAL
        * DIAL
@@ -368,8 +370,8 @@
        
        * VDN
        * QMIX
-       * COMA 
-       * MADDPG
+       * **COMA** 
+       * **MADDPG**
    
     * 基于模型的MARL Agents modeling agent (need people who are working on this to elaborate on)
 
@@ -412,7 +414,7 @@
 
     .. 是进阶课
     
-    时间：以年为单位
+    总课程时间：以年为单位
 
     参考文献、书籍 链接: `Github link <https://github.com/subaruclover/MARL_AI_outline/tree/main/docs/source/_static/references>`_ （ ``要注意书籍版权`` ）
 
@@ -425,13 +427,13 @@
     * 强化学习:
         * Reinforcement learning: An introduction, Richard S. Sutton, Andrew G. Barto (1st & 2nd edition)
         * Algorithms for Reinforcement Learning, Csaba Szepesvári, 2010 
-        * Markov Decision Processes in Artificial Intelligence, Olivier Sigaud, Olivier Buffet, 2013
+        * Markov Decision Processes in Artificial Intelligence, Olivier Sigaud, Olivier Buffet, 2013 ( `MDP2013 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Markov%20Decision%20Processes%20in%20Artificial%20Intelligence%20-%202013%20-%20Sigaud.pdf>`_ )
         * Mathmatical Foundation of Reinforcement Learning, Shiyu Zhao, 2022
-        * 动手学强化学习， 张伟楠 / 沈键 / 俞勇， 2022-2
-        * Deep-reinforcement-learning-hands, Maxim Lapan, 2018 （ `DRLH2018 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/>`_ ）
-        * Reinforcement Learning Algorithms with Python, Learn, understand, and develop smart algorithms for addressing AI challenges， Andrea Lonza， 2019 （ `RLAP2019 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/>`_ ）
-        * Deep Reinforcement Learning with Python， Sudharsan Ravichandiran，2020 （ `DRLP2020 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/>`_ ）
-        * Deep Reinforcement Learning with Python, With PyTorch, TensorFlow and OpenAI Gym，Nimish Sanghi，2021 （ `DRLP2021 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/>`_ ）
+        * 动手学强化学习， 张伟楠 / 沈键 / 俞勇， 2022-2 (`豆瓣 <https://book.douban.com/subject/35818782/>`_)
+        * Deep Reinforcement Learning Hands-on, Maxim Lapan, 2018 （ `DRLH2018 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/deep-reinforcement-learning-hands.pdf>`_ ）
+        * Reinforcement Learning Algorithms with Python, Learn, understand, and develop smart algorithms for addressing AI challenges， Andrea Lonza， 2019 （ `RLAP2019 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Reinforcement%20Learning%20Algorithms%20with%20Python%20Learn%2C%20understand%2C%20and%20develop%20smart%20algorithms%20for%20addressing%20AI%20challenges%20by%20Andrea%20Lonza.pdf>`_ ）
+        * Deep Reinforcement Learning with Python， Sudharsan Ravichandiran，2020 （ `DRLP2020 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Deep%20Reinforcement%20Learning%20with%20Python.pdf>`_ ）
+        * Deep Reinforcement Learning with Python, With PyTorch, TensorFlow and OpenAI Gym，Nimish Sanghi，2021 （ `DRLP2021 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Deep%20Reinforcement%20Learning%20with%20Python%20With%20PyTorch%2C%20TensorFlow%20and%20OpenAI%20Gym%20by%20Nimish%20Sanghi.pdf>`_ ）
 
     
     
