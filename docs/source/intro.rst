@@ -290,6 +290,8 @@
 
     * 基于通信的多智能体强化学习方法——简介及研究现状 `知乎专栏2 <https://zhuanlan.zhihu.com/p/421098367>`_
 
+    * MARL在 **博弈论方面** 的方法理论基础和最新进展总结概述 `知乎专栏3 <https://zhuanlan.zhihu.com/p/511141230>`_
+
 
     .. RL 溯源，分支 -> control theory, neuroscience (old paper)
 
@@ -331,6 +333,19 @@
 3. 主流的MARL分类（Taxonomy）
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. Tip:: 
+        
+    参考`知乎专栏3 <https://zhuanlan.zhihu.com/p/511141230>`_
+
+    基于学习范式（Based on Learning Paradigms）
+
+    #. 独立学习，共享策略
+    #. 独立学习，独立策略（以不同的轮子表示）
+    #. 独立学习，同一个group中的共享策略
+    #. 一个中央控制器控制所有agents；智能体之间随时可以交换信息（通过中央控制器）。这里的信息可以根据分类方法2来定义
+    #. 集中式学习分散式执行（CTDE）；只有在训练阶段，agents可以交换信息，在执行阶段，独立行动
+    #. 分散式训练；在训练中agents的网络可以与neighbours(附近的agents)交换信息在执行时，独立行动。这种可以认为是第(5)种的特殊形式，agents可以被认为通过一个时变网络相连，原文当neighbours互相通信时，信息可以在整个网络中传播
+
 主要在多智能体深度强化学习（MADRL/MDRL）范围展开
 
 不同分类下的代表算法-当前提出的算法 (分别根据不同的分类标准)
@@ -340,6 +355,7 @@
        * OpenAI: Learning to Cooperate, Compete, and Communicate ( `Emergence of grounded compositional language in multi-agent populations. <https://openai.com/blog/learning-to-cooperate-compete-and-communicate/>`_)
        * OpenAI hide and seek (`Emergent Tool Use From Multi-Agent Autocurricula <https://openai.com/blog/emergent-tool-use/>`_)
        * Riddle (Decentrailaized-centerailized)
+          * 集中式学习+分散式执行 （Centerailized critic + Decenterailized actors）
 
     * 智能体之间引入通信/交流 Learning communication
        
@@ -348,21 +364,21 @@
        * MADDPG (理解DDPG的前提下)
        * 其他方法 
  
-    * 智能体之间合作 Cooperative MARL
+    * 智能体之间合作/竞争 Cooperative/Competitive MARL
        
        * VDN
        * QMIX
-       * COMA
+       * COMA 
        * MADDPG
    
     * 基于模型的MARL Agents modeling agent (need people who are working on this to elaborate on)
 
 .. _marl_algs:
 
-4. 算法介绍，代码（Algorithms introduction and code）
+1. 算法介绍，代码（Algorithms introduction and code）
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   * 和第3部分（ :ref:`marl_taxonomy`）结合，对每一种算法进行详细的介绍、代码演示、结果分析。
+   * 和第3部分（:ref:`marl_taxonomy`）结合，对每一种算法进行详细的介绍、代码演示、结果分析。
    * 不同算法之间的比较（在同一个环境和实验任务中，结合baselines）
 
 .. _marl_aiarena:
@@ -403,25 +419,28 @@
     ``Books and papers (不断补充中)`` 
 
     * For Multi-Agent Systems:
-        `Multiagent Systems - algorithmic, game-theoretic & logical foundations <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Multiagent%20Systems%20algorithmic%2C%20game-theoretic%20and%20logical%20foundations.pdf>`_ 
+        * `Multiagent Systems - algorithmic, game-theoretic & logical foundations, Yoav Shoham, Kevin Leyton-Brown 2008 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Multiagent%20Systems%20algorithmic%2C%20game-theoretic%20and%20logical%20foundations.pdf>`_ 
 
 
-    * 强化学习（ + 每一个文档的链接）:
-        | Sutton (1st & 2nd edition)
-        | Algorithms RL 
-        | MDP 2013
-        | Shiyu Zhao 2022 MathFoundationRL
-        | Weinan Zhang 2022 (hands on RL in Chinese, new book)
-        | etc...
-        | paper (DRL, MARL)
-        | hands on DRL (books)
+    * 强化学习:
+        * Reinforcement learning: An introduction, Richard S. Sutton, Andrew G. Barto (1st & 2nd edition)
+        * Algorithms for Reinforcement Learning, Csaba Szepesvári, 2010 
+        * Markov Decision Processes in Artificial Intelligence, Olivier Sigaud, Olivier Buffet, 2013
+        * Mathmatical Foundation of Reinforcement Learning, Shiyu Zhao, 2022
+        * 动手学强化学习， 张伟楠 / 沈键 / 俞勇， 2022-2
+        * Deep-reinforcement-learning-hands, Maxim Lapan, 2018 （ `DRLH2018 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/>`_ ）
+        * Reinforcement Learning Algorithms with Python, Learn, understand, and develop smart algorithms for addressing AI challenges， Andrea Lonza， 2019 （ `RLAP2019 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/>`_ ）
+        * Deep Reinforcement Learning with Python， Sudharsan Ravichandiran，2020 （ `DRLP2020 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/>`_ ）
+        * Deep Reinforcement Learning with Python, With PyTorch, TensorFlow and OpenAI Gym，Nimish Sanghi，2021 （ `DRLP2021 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/>`_ ）
+
     
     
     * 机器学习:
-        | PRML Bishop (Link)
+        * Pattern Recognition and Machine Learning, Christopher Bishop, 2008
+
 
     * 腾讯开悟平台:
-        | Ye. D, et al. **Towards Playing Full MOBA Games with Deep Reinforcement Learning** (`paper1 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Towards%20Playing%20Full%20MOBA%20Games%20with%20Deep%20Reinforcement%20Learning.pdf>`_), 2020 NeurIPS 
-        | Wei. H et al, **Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning** (`paper2 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Honor%20of%20Kings%20Arena-%20an%20Environment%20for%20Generalization%20in%20Competitive%20Reinforcement%20Learning.pdf>`_), 2022 NeurIPS (`Github repo <https://github.com/tencent-ailab/hok_env>`_)
+        * Ye. D, et al. **Towards Playing Full MOBA Games with Deep Reinforcement Learning** (`paper1 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Towards%20Playing%20Full%20MOBA%20Games%20with%20Deep%20Reinforcement%20Learning.pdf>`_), 2020 NeurIPS 
+        * Wei. H et al, **Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning** (`paper2 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Honor%20of%20Kings%20Arena-%20an%20Environment%20for%20Generalization%20in%20Competitive%20Reinforcement%20Learning.pdf>`_), 2022 NeurIPS (`Github repo <https://github.com/tencent-ailab/hok_env>`_)
 
        
