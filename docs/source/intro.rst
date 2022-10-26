@@ -6,7 +6,7 @@
 现有的（多智能体）强化学习中文社区教材和讲义
 --------------------------------------------
 
-**Let's 站在前人的肩膀上** 
+**Let's 站在前人的肩膀上 standing on the shoulders of giants** 
 
 .. _marl_material: 
 
@@ -17,9 +17,11 @@
 
     .. `链接 <http://rlchina.org/>`_
 
-    UCL 汪军教授《Multi-agent AI》课程（中文字幕）Bilibili：
+    UCL 汪军教授《 **Multi-agent AI** 》课程 (中文字幕) Bilibili：
 
-    `Multi-agent AI - 视频链接 <https://www.bilibili.com/video/BV1fz4y1S72S?p=1&vd_source=38b5017372fe991e5b7e30cb941ee82c>`_
+    (Lectures in English, subtitles in Chinese) 
+
+    `Multi-agent AI - 视频链接 Video <https://www.bilibili.com/video/BV1fz4y1S72S?p=1&vd_source=38b5017372fe991e5b7e30cb941ee82c>`_
 
     Multi-agent AI 课程简介（侧重多智能体）：
 
@@ -145,16 +147,17 @@
 
 3. 西湖大学 (课本、视频) 赵世钰教授团队，飞行器控制领域
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    **Mathmatical Foundation of Reinforcement Learning**
 
     《强化学习的数学原理》（从零开始透彻理解强化学习）侧重从数学基础推导出发，从零基础开始介绍强化学习，并配套对应的书籍(不断更新中)和视频课程讲解，推荐没有 **强化学习基础** 同学学习。每周一/二更新，线上线下同步，预计2022年年底前更新完毕。
 
-    ``链接`` `书籍和课件链接 <https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning>`_ (推荐指数★★★★★ (✪ω✪) )
+    ``链接`` `书籍和课件链接 Book and slides <https://github.com/MathFoundationRL/Book-Mathmatical-Foundation-of-Reinforcement-Learning>`_ (推荐指数★★★★★ (✪ω✪) )
 
     课程视频（中文）Bilibili 和 Youtube频道：
 
     `Bilibili 视频链接 <https://space.bilibili.com/2044042934>`_
 
-    `Youtube频道视频链接 <https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists>`_
+    `Youtube Channel <https://www.youtube.com/channel/UCztGtS5YYiNv8x3pj9hLVgg/playlists>`_
 
     课程大纲
 
@@ -248,28 +251,28 @@
 
     英文学习材料：
 
-    #. 强化学习课程 RL Course by David Silver （2015） `课程视频(Youtube)和课件 <https://www.davidsilver.uk/teaching/>`_
+    #. 强化学习课程 RL Course by David Silver （2015） `课程视频(Youtube)和课件 <https://www.davidsilver.uk/teaching/>`_ (推荐指数★★★★★ (✪ω✪) )
 
-    #. CS285 (English) @ UC Berkeley 深度强化学习（DRL）课程 `CS285课程视频(Youtube)和课件 <http://rail.eecs.berkeley.edu/deeprlcourse/>`_
+    #. CS285 (English) @ UC Berkeley 深度强化学习（DRL）课程 `CS285课程视频(Youtube)和课件 <http://rail.eecs.berkeley.edu/deeprlcourse/>`_ (推荐指数★★★★★ (✪ω✪) )
 
-    #. OpenAI Spinning Up (`Spinning Up in Deep RL <https://spinningup.openai.com/en/latest/>`_)
+    #. OpenAI Spinning Up (`Spinning Up in Deep RL <https://spinningup.openai.com/en/latest/>`_) (推荐指数★★★★★ (✪ω✪) )
 
-    #. OpenAI bootcamp (`视频和课件 <https://sites.google.com/view/deep-rl-bootcamp/lectures>`_)
+    #. OpenAI bootcamp (`视频和课件 <https://sites.google.com/view/deep-rl-bootcamp/lectures>`_) (推荐指数★★★★★ (✪ω✪) )
 
     中文学习材料：
 
-    #. 天授平台 (`英文文档 <https://tianshou.readthedocs.io/en/master/>`_， `中文文档 <https://tianshou.readthedocs.io/zh/master/>`_)
+    #. 天授平台 (`英文文档 <https://tianshou.readthedocs.io/en/master/>`_， `中文文档 <https://tianshou.readthedocs.io/zh/master/>`_) (推荐指数★★★★★ (✪ω✪) )
 
-    #. 强化学习课程 by UCLA 周博磊教授 (`Github <https://github.com/zhoubolei/introRL>`_, `Bilibili <https://space.bilibili.com/511221970/channel/seriesdetail?sid=764099&ctype=0>`_)
+    #. 强化学习课程 by UCLA 周博磊教授 (`Github <https://github.com/zhoubolei/introRL>`_, `Bilibili <https://space.bilibili.com/511221970/channel/seriesdetail?sid=764099&ctype=0>`_) (推荐指数★★★★☆ (●ﾟ▽ﾟ●) )
 
-    #. 莫烦python - `强化学习 <https://mofanpy.com/tutorials/machine-learning/reinforcement-learning/>`_， `GitHub Repo on RL with TF <https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow>`_
+    #. 莫烦python - `强化学习 <https://mofanpy.com/tutorials/machine-learning/reinforcement-learning/>`_， `GitHub Repo on RL with TF <https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow>`_ (推荐指数★★★★★ (✪ω✪) )
 
     #. 机器学习与深度学习、强化学习 邹博 （2019）
 
 .. _marl_material5:
 
 5. **多智能体强化学习文献综述（MARL survey）& Papers:**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     
     （In year order）
 
@@ -286,11 +289,11 @@
     * Fu, Qingxu, et al. "Concentration Network for Reinforcement Learning of Large-Scale Multi-Agent Systems." *arXiv preprint* arXiv:2203.06416 (2022).  (AAAI-22 中科院自动化所-飞行器智能技术，多智能体AI， `视频讲解训练全过程展示 <https://www.bilibili.com/video/BV1vF411M7N9?share_source=copy_web&vd_source=3a42fd9dcf75064acaf3ec0f8218e373>`_ )
 
 
-    * 【多智能体强化学习】新手入门算法论文大总结 `知乎专栏1 <https://zhuanlan.zhihu.com/p/432241482>`_ 
+    * 【多智能体强化学习】新手入门算法论文大总结 (A list of algorithms summary in MARL) `知乎专栏1 <https://zhuanlan.zhihu.com/p/432241482>`_ 
 
-    * 基于 **通信** 的多智能体强化学习方法——简介及研究现状 `知乎专栏2 <https://zhuanlan.zhihu.com/p/421098367>`_
+    * 基于 **通信 (communication)** 的多智能体强化学习方法——简介及研究现状 `知乎专栏2 <https://zhuanlan.zhihu.com/p/421098367>`_
 
-    * MARL在 **博弈论方面** 的方法理论基础和最新进展总结概述 `知乎专栏3 <https://zhuanlan.zhihu.com/p/511141230>`_
+    * MARL在 **博弈论方面 (Game theory)** 的方法理论基础和最新进展总结概述 `知乎专栏3 <https://zhuanlan.zhihu.com/p/511141230>`_
 
 
     .. RL 溯源，分支 -> control theory, neuroscience (old paper)
@@ -311,6 +314,8 @@
 
 当前在强化学习领域中，对MARL这一块目前没有很系统的介绍，最初RL用于单个个体 (single agent) 在和环境和互动中习得如何做决策，学习达到奖励的策略。现在大量的关注涌向了多智能体的领域，状态空间，状态-行为空间急速上升，其他智能体和环境的仅部分可观测特性使得适用于单智能体的算法在多智能体的情况下往往不再适用。当然，如果我们可以把智能体当成单个的智能体，其他智能体和环境全都看做环境，这样的“独立”智能体简单的将多智能体的问题转化成单智能体的考虑范畴，但这样做训练效果往往不尽人意。越来越多的科研人员从不同的角度提出了许多效果还不错的算法。
 我们可以按照任务的标准或者模型的标准来划分各种多智能体的算法分类。而本课程的多智能体RL部分，将对每一个类别中比较具有代表性的算法进行讲解，每一种算法都会从论文本身出发，配合代码讲解。此外，腾讯开悟平台是首个国内以游戏 **王者荣耀** 为实验平台开发的API，可以实现 *1v1 ~ 5v5* 的不同数量的智能体的合作/对抗实验测试，是本课程MARL部分将使用的测试平台，同学们将通过学习如何配置实验环境，如何将不同的算法应用在开悟平台中，理解和掌握RL的算法和实验过程。
+
+.. https://www.youtube.com/watch?v=qgb0gyrpiGk introdcution MARL
 
 .. 分类 advantage function, baselines, COMA, MAAC, SAC, QMIX, VDN
 
@@ -340,7 +345,7 @@
     基于学习范式（Based on Learning Paradigms）的分类
 
     #. 独立学习，共享策略
-    #. 独立学习，独立策略（
+    #. 独立学习，独立策略
     #. 独立学习，同一个group中的共享策略
     #. 一个中央控制器控制所有agents；智能体之间随时可以交换信息（通过中央控制器）。这里的信息可以根据分类方法2来定义
     #. 集中式学习分散式执行（CTDE）；只有在训练阶段，agents可以交换信息，在执行阶段，独立行动
@@ -385,8 +390,8 @@
 
 .. _marl_aiarena:
 
-5. 与腾讯开悟平台结合的MARL
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+5. 与腾讯开悟平台 (`AI Arena <https://aiarena.tencent.com/aiarena/en>`_) 结合的MARL
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     
     #. 开悟平台介绍（目前开源的平台以及提供的baselines介绍）
     #. 实例讲解 
