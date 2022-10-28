@@ -8,7 +8,7 @@
 
 .. Outracing champion Gran Turismo drivers with deep reinforcement learning
 
-* Wurman, Peter R., et al. **Outracing champion Gran Turismo drivers with deep reinforcement learning.** Nature 602.7896 (2022): 223-228. (`paper reading <https://github.com/subaruclover/MARL_AI_outline/tree/main/docs/source/_static/references>`_)
+* Wurman, Peter R., et al. **Outracing champion Gran Turismo drivers with deep reinforcement learning.** Nature 602.7896 (2022): 223-228. (`paper reading <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Outracing%20champion%20Gran%20Turismo%20drivers%20with%20deep%20reinforcement%20learning.pdf>`_)
 
 .. figure:: /_static/images/sony_overview.png
    :width: 600
