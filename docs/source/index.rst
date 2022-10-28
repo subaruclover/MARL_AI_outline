@@ -1,7 +1,5 @@
-.. MARL文档, created by
-   sphinx-quickstart on Sun night Oct 16 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. MARL文档, created by sphinx-quickstart on Sun night Oct 16 2022.
+   You can adapt this file completely to your liking, but it should at least contain the root `toctree` directive.
 
 欢迎来到实战云多智能体强化学习项目大纲
 ======================================
@@ -14,11 +12,11 @@
 
 * 第一次在线meetup会议: 2022年10月11日, 14:00-15:00（GMT+08:00）
 
-  参加者: 任川, Nicole, Qiong
+  参加者: 任川, Nicole (张静娴), Qiong (黄琼)
 
-* 第二次在线meetup会议: 2022年10月28日, 15:00-15:30（GMT+08:00）
+* 第二次在线meetup会议: 2022年10月28日, 15:00-16:06（GMT+08:00）
 
-  参加者: 任川, 张静娴, 黄琼
+  参加者: 张静娴, 黄琼
 
 查看 :doc:`usage` 和 :doc:`intro` 部分了解更多信息。
 
