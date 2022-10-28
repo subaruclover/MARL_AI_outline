@@ -276,6 +276,8 @@
     
     （In year order）
 
+    * Buşoniu, Lucian, Robert Babuška, and Bart De Schutter. "Multi-agent reinforcement learning: An overview." *Innovations in multi-agent systems and applications-1* (2010): 183-221.
+
     * Hernandez-Leal, Pablo, Bilal Kartal, and Matthew E. Taylor. "A survey and critique of multiagent deep reinforcement learning." *Autonomous Agents and Multi-Agent Systems* 33.6 (2019): 750-797.
 
     * Nguyen, Thanh Thi, Ngoc Duy Nguyen, and Saeid Nahavandi. "Deep reinforcement learning for multiagent systems: A review of challenges, solutions, and applications." *IEEE transactions on cybernetics* 50.9 (2020): 3826-3839.
