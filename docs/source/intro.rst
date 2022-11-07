@@ -215,12 +215,16 @@
         - 6.6 随机梯度下降有趣的性质
         - 6.7 随机梯度下降（SGD）对比BGD（Batch GD）、MBGD（Mini-batch GD）
     
-    #. ``第7课 | 时序差分学习（TD Learning）`` ::
+    #. ``第7课 | 时序差分方法（TD Learning）`` ::
         
-        - 7.1 例子
-        - 7.2 SARSA
-        - 7.3 Q-learning
-        - 7.4 
+        - 7.1 例子（motivating example ）
+        - 7.2 TD算法介绍
+        - 7.3 TD算法收敛性、与MC的比较 
+        - 7.4 SARSA
+        - 7.5 Expected SARSA和n-step SARSA
+        - 7.6 Q-learning介绍、on-policy VS. off-policy
+        - 7.7 Q-learning伪代码与例子
+        - 7.8 TD算法的统一形式和总结
 
     #. ``第8课 | Value function approx`` ::
         
@@ -449,6 +453,7 @@
 
 
     * 腾讯开悟平台:
+        * 官方视频账号 （ `Bilibili视频账号 <https://space.bilibili.com/1646763844?share_from=space&share_medium=iphone&share_plat=ios&share_session_id=D109CC36-DF13-48DF-8473-9BE2A87E295E&share_source=WEIXIN&share_tag=s_i&timestamp=1667797157&unique_k=CmkooJZ>`_ ）
         * Ye. D, et al. **Towards Playing Full MOBA Games with Deep Reinforcement Learning** (`paper1 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Towards%20Playing%20Full%20MOBA%20Games%20with%20Deep%20Reinforcement%20Learning.pdf>`_), 2020 NeurIPS 
         * Wei. H et al, **Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning** (`paper2 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Honor%20of%20Kings%20Arena-%20an%20Environment%20for%20Generalization%20in%20Competitive%20Reinforcement%20Learning.pdf>`_), 2022 NeurIPS (`Github repo <https://github.com/tencent-ailab/hok_env>`_)
 
