@@ -454,6 +454,7 @@
 
     * 腾讯开悟平台:
         * 官方视频账号 （ `Bilibili视频账号 <https://space.bilibili.com/1646763844?share_from=space&share_medium=iphone&share_plat=ios&share_session_id=D109CC36-DF13-48DF-8473-9BE2A87E295E&share_source=WEIXIN&share_tag=s_i&timestamp=1667797157&unique_k=CmkooJZ>`_ ）
+        * 主要应用算法：PPO
         * Ye. D, et al. **Towards Playing Full MOBA Games with Deep Reinforcement Learning** (`paper1 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Towards%20Playing%20Full%20MOBA%20Games%20with%20Deep%20Reinforcement%20Learning.pdf>`_), 2020 NeurIPS 
         * Wei. H et al, **Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning** (`paper2 <https://github.com/subaruclover/MARL_AI_outline/blob/main/docs/source/_static/references/Honor%20of%20Kings%20Arena-%20an%20Environment%20for%20Generalization%20in%20Competitive%20Reinforcement%20Learning.pdf>`_), 2022 NeurIPS (`Github repo <https://github.com/tencent-ailab/hok_env>`_)
 
