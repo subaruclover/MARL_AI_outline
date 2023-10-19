@@ -217,7 +217,7 @@
     
     #. ``第7课 | 时序差分方法（TD Learning）`` ::
         
-        - 7.1 例子（motivating example）
+        - 7.1 例子（motivating example ）
         - 7.2 TD算法介绍
         - 7.3 TD算法收敛性、与MC的比较 
         - 7.4 SARSA
@@ -228,29 +228,34 @@
 
     #. ``第8课 | 值函数近似（Value function approx）`` ::
         
-        - 8.1 例子
-        - 8.2 目标函数
-        - 8.3 优化算法
-        - 8.4 线性函数近似
-        - 8.5 DQN
+        - 8.1 例子-曲线拟合
+        - 8.2 目标函数介绍
+        - 8.3 优化算法和函数选择
+        - 8.4 示例与分析
+        - 8.5 Sarsa和Q-learning
+        - 8.6 DQN基本原理
+        - 8.7 DQN: Experience replay
+        - 8.8 DQN: 代码与例子
    
-    #. ``第9课 | Policy function approx (PG)`` ::
+    #. ``第9课 | 策略梯度法（Policy function approx (PG)）`` ::
         
-        - 9.1 策略梯度概念
-        - 9.2 
-        - 9.3 
-        - 9.4 
+        - 9.1 该方法的基本思路
+        - 9.2 该方法的目标函数1 - Average value
+        - 9.3 该方法的目标函数2 - Average reward
+        - 9.4 目标函数的梯度计算
+        - 9.5 梯度上升算法和REINFORCE
 
-    #. ``第10课 | Actor-Critic methods`` ::
+    #. ``第10课 | Actor-Critic 方法`` ::
         
-        - 10.1 
-        - 10.2 
-        - 10.3 
-        - 10.4 
+        - 10.1 最简单的Actor-Critic（QAC）
+        - 10.2 Advantage Actor-Critic (A2C)
+        - 10.3 重要性采样和Off-Policy Actor-Critic
+        - 10.4 Deterministic Actor-Critic
+        - 10.5 强化学习的数学原理
 
 .. _marl_material4:
 
-4. 其他相关课程和资料
+1. 其他相关课程和资料
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
     英文学习材料：
