@@ -217,7 +217,7 @@
     
     #. ``第7课 | 时序差分方法（TD Learning）`` ::
         
-        - 7.1 例子（motivating example ）
+        - 7.1 例子（motivating example）
         - 7.2 TD算法介绍
         - 7.3 TD算法收敛性、与MC的比较 
         - 7.4 SARSA
@@ -226,7 +226,7 @@
         - 7.7 Q-learning伪代码与例子
         - 7.8 TD算法的统一形式和总结
 
-    #. ``第8课 | Value function approx`` ::
+    #. ``第8课 | 值函数近似（Value function approx）`` ::
         
         - 8.1 例子
         - 8.2 目标函数
