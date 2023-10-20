@@ -4,7 +4,7 @@
 import sphinx_rtd_theme
 
 project = 'MARL'
-copyright = '2022, Qiong'
+copyright = '2022-2023, Qiong'
 author = 'Qiong Huang'
 
 release = '0.1'
